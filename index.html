@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Blured Background Cards</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        font-family: "Poppins";
+        background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+        background-image: url("img/Background.png");
+        object-fit: cover;
+        object-position: center;
+      }
+      .container {
+        display: flex;
+        height: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+        padding-top: 50px;
+      }
+      .card {
+        color: #fff;
+        border: 1px solid #fff;
+        max-width: 250px;
+        padding: 30px 20px 20px 20px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        border-radius: 9px;
+      }
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .card-content img {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        transition: all 0.3s;
+      }
+      .card-content img:hover {
+        transform: scale(1.5);
+        box-shadow: 0 20px 40px rgba(255, 255, 255, 0.3);
+      }
+      .card-content h2 {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+      .card-content h3 {
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 500;
+      }
+      .links img {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+      }
+      .links img:hover {
+        background-color: #1cb5e0;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <img
+            src="../GlassmorphismCard/img/profile1.jpg"
+            alt="Profile Picture"
+          />
+          <h2>John Justin</h2>
+          <h3>Chief Technology Officer</h3>
+          <div class="links">
+            <img
+              src="../GlassmorphismCard/img/facebook.png"
+              alt="Facebook Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/twitter.png"
+              alt="Twitter Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/telegram.png"
+              alt="Facebook Logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <img
+            src="../GlassmorphismCard/img/profile7.jpg"
+            alt="Profile Picture"
+          />
+          <h2>John Thomas</h2>
+          <h3>Chief Technology Officer</h3>
+          <div class="links">
+            <img
+              src="../GlassmorphismCard/img/facebook.png"
+              alt="Facebook Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/twitter.png"
+              alt="Twitter Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/telegram.png"
+              alt="Facebook Logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <img
+            src="../GlassmorphismCard/img/profile8.jpg"
+            alt="Profile Picture"
+          />
+          <h2>Maverick Andrew</h2>
+          <h3>IT Project Manager</h3>
+          <div class="links">
+            <img
+              src="../GlassmorphismCard/img/facebook.png"
+              alt="Facebook Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/twitter.png"
+              alt="Twitter Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/telegram.png"
+              alt="Facebook Logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <img
+            src="../GlassmorphismCard/img/profile4.jpg"
+            alt="Profile Picture"
+          />
+          <h2>Ryan Jonathan</h2>
+          <h3>System Analyst</h3>
+          <div class="links">
+            <img
+              src="../GlassmorphismCard/img/facebook.png"
+              alt="Facebook Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/twitter.png"
+              alt="Twitter Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/telegram.png"
+              alt="Facebook Logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <img
+            src="../GlassmorphismCard/img/profile3.jpg"
+            alt="Profile Picture"
+          />
+          <h2>Robert Parker</h2>
+          <h3>Infrastructure Lead</h3>
+          <div class="links">
+            <img
+              src="../GlassmorphismCard/img/facebook.png"
+              alt="Facebook Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/twitter.png"
+              alt="Twitter Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/telegram.png"
+              alt="Facebook Logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <img
+            src="../GlassmorphismCard/img/profile5.jpg"
+            alt="Profile Picture"
+          />
+          <h2>Asher Hudson</h2>
+          <h3>Scrum Master</h3>
+          <div class="links">
+            <img
+              src="../GlassmorphismCard/img/facebook.png"
+              alt="Facebook Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/twitter.png"
+              alt="Twitter Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/telegram.png"
+              alt="Facebook Logo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <img
+            src="../GlassmorphismCard/img/profile9.avif"
+            alt="Profile Picture"
+          />
+          <h2>Jayden Maxwell</h2>
+          <h3>Application Developer</h3>
+          <div class="links">
+            <img
+              src="../GlassmorphismCard/img/facebook.png"
+              alt="Facebook Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/twitter.png"
+              alt="Twitter Logo"
+            />
+            <img
+              src="../GlassmorphismCard/img/telegram.png"
+              alt="Facebook Logo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
